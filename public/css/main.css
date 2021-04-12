@@ -1,0 +1,67 @@
+
+
+body {
+    background-color: white;
+    align-items: center;
+    color: navy;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    color:blue;
+    box-shadow: 5px 5px PaleTurquoise, 10px 10px#88A2EA , 15px 15px #BDA7DC ;
+    border-radius:10px;
+    position: center;
+    border-color: cornflowerblue;
+  }
+
+input[type=submit] {
+     width:20%;
+     height: 50px;
+     background-color: PaleTurquoise;
+     font-size: medium;
+     border-radius:10px;
+     position: center;
+     margin: 20px;
+     border-color :PaleTurquoise;
+     color:cornflowerblue;
+    }
+
+nav ul {
+    text-align: center ;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+nav a {
+    display: block;
+    padding: 8px 20px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+
+nav li a {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: white ;
+}
+
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px cornflowerblue, 0 0 5px navy;
+}
